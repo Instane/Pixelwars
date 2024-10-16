@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pixelwars.controller.EndScreenController">
+   <children>
+      <Label fx:id="endText" alignment="CENTER" layoutX="116.0" layoutY="119.0" prefHeight="134.0" prefWidth="368.0" text="Game Over!">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+      <Button layoutX="273.0" layoutY="282.0" mnemonicParsing="false" onMousePressed="#handleExit" prefHeight="25.0" prefWidth="53.0" text="Exit" />
+   </children>
+</AnchorPane>
